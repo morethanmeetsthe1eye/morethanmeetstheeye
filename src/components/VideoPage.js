@@ -4,29 +4,29 @@ import Modal from "./ModalComp"
 
 const videos = [ 
     {
-        id: 1,
+        id: "yFABX8FzRA8",
         title: "More Than Meets the Eye with Chief Bosco ",
-        src: "/videos/Bosco-1.mp4",
+         
     },
     
     {
-        id: 2,
+        id: "rR91P_4rhMQ",
         title: "More Than Meets the Eye with Chief Matrunics",
-        src: "/videos/Matrunics-1.mp4",
+    
 
     },
     
     {
-        id:3,
-        title: "More Than Meets the Eye with Latrobe PD",
-        src: "/videos/1735.mp4"
+        id: "LYlzQoBhFkk",
+        title: "Ligonier PD Patrol",
+        
 
     },
 
     {
-        id:4,
+        id: "qCTIR-GaDFE",
         title: "More Than Meets the Eye Ligoneer Radio",
-        src: "/videos/1759.mp4",
+    
     },
 
 ];
@@ -41,15 +41,14 @@ function VideoPage() {
             <div className="video-grid">   
                 {videos.map((video) => (
                     <div key={video.id} className="video">
-                        <video width="100%" 
-                                preload="metadata"
-                                style={{cursor: 'pointer', borderRadius: '8px'}}
-                               onClick={() => setActiveVideo(video.src)}
-                        >
-                            <source src = {video.src} type="video/mp4" />
-                            Your browser does not suppport the video tag.
-                        </video>
-                        <h4>{video.title}</h4>
+                        <img
+                            src={`https://img.youtube.com/vi/${video.id}/0.jpg`}
+                            alt={video.title}  
+                            style={{width: '100%', borderRadius: '10px', cursor: 'pointer'}}  
+                            onClick={() => setActiveVideo(video.id)}   
+                            />             
+                             <h4>{video.title}</h4>
+                               
                     </div>     
                 ))}
             </div>
@@ -57,14 +56,15 @@ function VideoPage() {
         {/* Modal */}
             {activeVideo && ( 
                 <Modal onClose={() => setActiveVideo(null)}>
-                    <video
-                    className="modal-video"
-                    src={activeVideo}
-                    controls
-                    autoPlay
-                    style={{ width: '100%', maxHeight: '80vh'}}
-                    />
-
+                    <div className="video-wrapper">
+                        <iframe
+                        src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1`}
+                        title = "Video Player"
+                        frameBorder="0"
+                        allow="autoplay; encrypted-media"
+                        allowFullScreen
+                        />
+                    </div>
 
                 </Modal>
 

@@ -3,8 +3,11 @@ import ReactDOM from "react-dom";
 
 function Modal({ children, onClose }) {
     return ReactDOM.createPortal(
-        <div className="modal" onClick={onClose}>
-            <div onClick={(e) => e.stopPropagation()}>
+        <div className="modal-overlay" onClick={onClose}>
+            <div 
+            className="model-content"
+            onClick={(e) => e.stopPropagation()}
+            >
                 {children}
             </div>
         </div>,

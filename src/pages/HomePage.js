@@ -5,18 +5,19 @@ const HomePage = () => {
     return (
         <Container>
             <div className="container mt-5 text-center">
-            <h2>More Than Meets The Eye</h2>
+              <h2>More Than Meets The Eye</h2>
 
-            <video 
-    
-                width="100%" 
-                controls
-                style={{ maxHeight: "550px", borderRadius: "8px" }}
-            >
-                <source src='/videos/Bosco-1.mp4' type="video/mp4"/>
-                Your browser does not support the video tag.
-            </video>
-        </div>
+                <div className="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.youtube.com/embed/yFABX8FzRA8?si=VvNku109GPl0_CdX" 
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>    
+
+                 </div>
+                
+            </div>
     
        </Container>
     );  
