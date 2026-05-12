@@ -14,13 +14,7 @@ const ContactPage = () => {
                         
                          <h6>More Than Meets The Eye</h6>   
 
-                         <address>
-                            5129 Route 30
-                            <br />
-                            Greensburg, PA 15601
-                            <br />
-                            U.S.A.
-                        </address>
+                    
 
                     </Col>
                     
@@ -36,7 +30,7 @@ const ContactPage = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                             href='mailto:jstewart@achieva.info'
+                             href='mailto:morethanmeets.the1eye@gmail.com'
                         >
                             <i className='fa fa-envelope-o' /> Email Group
                         </a>

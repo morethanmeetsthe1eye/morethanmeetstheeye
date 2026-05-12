@@ -27,8 +27,8 @@ function    PartnersList() {
             name: "ligoner Valley PD",
             logo: lvpd,
             url: "https://www.ligoniervalleypolice.org/"
-        },  
-        
+        }  
+        /*
         {
             name: "Greensburg PD",
             logo: gpd,
@@ -41,7 +41,7 @@ function    PartnersList() {
             logo: ems,
             url: "https://www.mutual-aid.com/",
         }
-        
+        */
 
     ];
 

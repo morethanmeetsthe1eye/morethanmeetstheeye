@@ -12,9 +12,6 @@ import { NavLink } from 'react-router-dom';
 import logo from '../App/Assets/images/iconWords.png';
 
 
-
-
-
 const Header = () => {
     
     const [ menuOpen, setMenuOpen ] = useState(false);
@@ -27,7 +24,7 @@ const Header = () => {
                 >
             <NavbarBrand classnName='ms-4' href='/'>
                 <img src={logo} alt='m logo' className='float-start' />
-                <h1 className='mt-1'>More Than Meets The Eye</h1>
+                <h3 className='mt-1'>More Than Meets The Eye</h3>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>

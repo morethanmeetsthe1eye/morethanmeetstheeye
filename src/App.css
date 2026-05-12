@@ -1,17 +1,21 @@
 body {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  padding: 0;
 }
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: large;
+}
 
 
 
 
 .card-body > .card-title {
-  font-family: 'Merriweather', cursive;
+  font-family: 'Merriweather', serif;
 
   text-decoration: none;
   color: #3E8E41;
@@ -69,13 +73,21 @@ h3,
   margin-right: 2rem;
   text-decoration: none;
   list-style: none;
+  font-size: 1.2rem;
+
 }
+@media (max-width: 576px){
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
 
 .navbar-brand img {
   width: 175%;
   height: 135%;
-  padding: 5px;
-  margin-right: 2rem;
+  padding: 0px;
+  margin-right: 0px;
   
 }
 
@@ -90,12 +102,6 @@ h3,
 }
 
 
-
-
-
-
-
-
 .navbar-dark ab :hover {
 
   color:#ffD116
@@ -104,7 +110,7 @@ h3,
 
  img.card-img {
 
-  width: 30%;
+  width: 25%;
   max-height: 100px;
   text-decoration: none;
 
@@ -220,8 +226,8 @@ h3,
 
 
 .video-wrapper iframe {
-  width: 250%;
-  height: 250%;
+  width: 125%;
+  height: 125%;
   border-radius: 10px;
   
 }

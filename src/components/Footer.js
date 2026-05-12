@@ -29,12 +29,6 @@ const Footer = () => {
                         <Col xs='6' sm='3' className='text-center'>
                             <h5>Social</h5>
                             <a
-                                className='btn btn-social-icon btn-instagram'
-                                href='http://instagram.com/'
-                            >
-                                <i className='fa fa-instagram' />
-                            </a>{' '}
-                            <a
                                 className='btn btn-social-icon btn-facebook'
                                 href='http://www.facebook.com/profile.php?id=61567997241334'
                             >
@@ -72,9 +66,9 @@ const Footer = () => {
                             <a
                                 role='button'
                                 className='btn btn-link'
-                                href='mailto:jstewart@achieva.info'
+                                href='mailto:morethanmeets.the1eye@gmail.com'
                             >
-                                <i className='fa fa-envelope-o' /> jstewart@achieva.info
+                                <i className='fa fa-envelope-o' /> morethanmeets.the1eye@gmail.com
                             </a>
                         </Col>
                         <br />

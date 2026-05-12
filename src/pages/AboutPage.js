@@ -45,13 +45,10 @@ const AboutPage = () => {
                                 <dt className='col-6'>Jim Stewert</dt>
                                 <dd className='col-6'>Liason</dd>
                                 <dt className='col-6'> Phone: </dt>
-                                <dd className='col-6'>1-724-837-8159 x109</dd>
+                                <dd className='col-6'>1-412-522-2563</dd>
                                 <dt className='col-6'>Email:</dt>
-                                <dd className='col-6'>  jstewart@achieva</dd>
-                                <dt className='col-6'> Address:</dt>
-                                <dd className='col-6'> 5129 Route 30</dd>
-                                <dt className='col-6'>   </dt>
-                                <dd className='col-6'>  Greensburg Pa, 15601</dd>
+                                <dd className='col-6'>morethanmeets.the1eye@gmail.com</dd>
+                                
                 
                             </dl>
                         </CardBody>
