@@ -2,9 +2,6 @@ import React from "react";
 import able from '../App/Assets/images/able1.jpg';
 import lpd from '../App/Assets/images/latrobePD.png';
 import lvpd from '../App/Assets/images/LVPD.jpg';
-import ems from '../App/Assets/images/ems.jpg';
-import gpd from '../App/Assets/images/gpd.jpg';
-
 
 function    PartnersList() {
     const partners = [
