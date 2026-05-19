@@ -25,7 +25,7 @@ const AboutPage = () => {
                         This is really a look at these situations from the inside out. This is not an uninformed view but rather researched and produced by those who are differently abled.
                     </p>
                     <p>
-                        Trevor Kerr is a video producer who has championed this cause. As a young man, he was stopped by police for speeding. While the officer was verfy professional, Trevor felt the situationwould present a great deal of anxiety (perhaps that is an intended outcome?). Trevor had taken some TV production classes in high school and worked with the Latrobe Arts Council producing video pieces about different exhibits. He thought, "why don't I attempt to answer some of these questions about police and ID/A, via video." This site is to show the result of his efforts.
+                        Trevor Kerr is a video producer who has championed this cause. As a young man, he was stopped by police for speeding. While the officer was very professional, Trevor felt the situation would present a great deal of anxiety (perhaps that is an intended outcome?). Trevor had taken some TV production classes in high school and worked with the Latrobe Arts Council producing video pieces about different exhibits. He thought, "why don't I attempt to answer some of these questions about police and ID/A, via video." This site is to show the result of his efforts.
                     </p>
 
                 </Col>
