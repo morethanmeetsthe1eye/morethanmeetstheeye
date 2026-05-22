@@ -2,7 +2,25 @@ import React from "react";
 import { useState } from "react";
 import Modal from "./ModalComp"
 
-const videos = [ 
+const videos = [
+
+    {
+        id: "GhA-qFLSWwQ",
+        title: "The Three Ways to Think About Autism"
+    },
+
+    {
+        id:"B6AqDHlzs6o",
+        title: "Diving In Deeper"
+    },
+
+    {
+        id:"Fn9xlZmBPaE",
+        title: "Austism's Place"
+    },
+
+
+    
     {
         id: "yFABX8FzRA8",
         title: "More Than Meets the Eye with Chief Bosco ",
@@ -15,6 +33,7 @@ const videos = [
     
 
     },
+
     
     {
         id: "LYlzQoBhFkk",
