@@ -30,8 +30,8 @@ const Footer = () => {
                             <h5>Social</h5>
                             <a
                                 className='btn btn-social-icon btn-facebook'
-                                href='http://www.facebook.com/profile.php?id=61567997241334'
-                            >
+                                href='https://www.facebook.com/people/More-Than-Meets-The-Eye/61590192850622'           >
+                                
                                 <i className='fa fa-facebook' />
                             </a>{' '}
                             <a
