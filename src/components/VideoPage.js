@@ -35,6 +35,22 @@ const videos = [
     },
 
     {
+        id: "62yyAOHy5Jk",
+        title: "Patience, Patience"
+    },
+
+    {
+        id: "iVJJ9jIsTis",
+        title: "In The Heights"
+    },
+
+    {
+        id: "6f0yQHIv50s",
+        title: "Understanding"
+
+    },
+
+    {
         id: "yFABX8FzRA8",
         title: "More Than Meets the Eye with Chief Bosco ",
          
